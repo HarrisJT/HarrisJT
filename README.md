@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working at @abodo-dev
+- 🔭 I’m currently working at [ABODO](https://abodo.com/about)
 - 🌱 I’m currently learning Rust, Applications of Machine Learning in marketplaces
 - 👯 I’m looking to collaborate on interesting civic, finance, or social projects
 - 💬 Ask me about Typescript, React, Redux, Web Performance
