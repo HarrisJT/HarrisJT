@@ -50,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   kindle-highlights
   redcarpet
 
