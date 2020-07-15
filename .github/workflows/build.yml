@@ -15,9 +15,9 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.7
-      - uses: actions/cache@v2
-        name: Configure bundle gem caching
+          ruby-version: 2.4
+      - name: Configure bundle gem caching
+        uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
