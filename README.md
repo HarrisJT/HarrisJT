@@ -11,4 +11,4 @@ Here are my latest favorite quotes:
 
 > If you want to improve, be content to be thought foolish and stupid. ―<cite>Lectures</cite>, Epicetus
 
-<a href='https://github.com/HarrisJT/HarrisJT/actions'><img src='https://github.com/HarrisJT/HarrisJT/workflows/Build%20README/badge.svg' align='right' alt='Build README'></a> <a href='https://github.com/HarrisJT/HarrisJT/index.rb'>How this works</a>
+<a href='https://github.com/HarrisJT/HarrisJT/actions'><img src='https://github.com/HarrisJT/HarrisJT/workflows/Build%20README/badge.svg' align='right' alt='Build README'></a> <a href='https://github.com/HarrisJT/HarrisJT/blob/master/index.rb'>How this works</a>
