@@ -34,7 +34,7 @@ end
 
 if highlights.length.positive?
   File.open("README.md", "w") do |file|
-    file.puts("Currently working on [#{WORK_NAME}](#{WORK_URL}), read my [website](#{PERSONAL_WEBSITE_URL}) or [twitter](#{TWITTER_URL}), reach me: [#{PERSONAL_EMAIL}](mailto:#{PERSONAL_EMAIL}).\n\n")
+    file.puts("Currently working at [#{WORK_NAME}](#{WORK_URL}), writing on [website](#{PERSONAL_WEBSITE_URL}) or [twitter](#{TWITTER_URL}). Reach me: [#{PERSONAL_EMAIL}](mailto:#{PERSONAL_EMAIL}).\n\n")
 
     file.puts("Here are my latest kindle highlights:\n")
 
