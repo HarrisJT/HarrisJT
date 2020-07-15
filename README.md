@@ -1,8 +1,14 @@
-### Hi there 👋
+Currently working on [ABODO](https://abodo.com/about), read my [website](https://harrisjt.com) or [twitter](https://twitter.com/harrisjt_), reach me: [harris@harrisjt.com](mailto:harris@harrisjt.com).
 
-- 🔭 I’m currently working at [ABODO](https://abodo.com/about)
-- 🌱 I’m currently learning Rust, Applications of Machine Learning in marketplaces
-- 👯 I’m looking to collaborate on interesting civic, finance, or social projects
-- 💬 Ask me about Typescript, React, Redux, Web Performance
-- 📫 How to reach me: harris@harrisjt.com, or [twitter](https://twitter.com/harrisjt_)
-- ⚡ Currently enjoying Kayaking, Biking, and Reading non-fiction
+Here are my latest favorite quotes:
+> All of humanity's problems stem from man's inability to sit quietly in a room alone. ―<cite>Pensées</cite>, Blaise Pascal
+
+> The meaning of life is just to be alive. It is so plain and so obvious and so simple. And yet, everybody rushes around in a great panic as if it were necessary to achieve something beyond themselves. ―<cite>The Culture of Counter-Culture</cite>, Alan Watts
+
+> If you want to be given everything, give everything up. ―<cite>Tao Te Ching</cite>, Lao Tzu
+
+> The universe is not here to please you. ―<cite>Do you mind if I rant a minute?</cite>, Charles Murtaugh
+
+> If you want to improve, be content to be thought foolish and stupid. ―<cite>Lectures</cite>, Epicetus
+
+<a href='https://github.com/HarrisJT/HarrisJT/actions'><img src='https://github.com/HarrisJT/HarrisJT/workflows/Build%20README/badge.svg' align='right' alt='Build README'></a> <a href='https://github.com/HarrisJT/HarrisJT/index.rb'>How this works</a>
