@@ -64,13 +64,13 @@ File.open("README.md", 'w') do |f|
     f.puts("Here are my latest kindle highlights:\n")
 
     highlights.slice(0, HIGHLIGHTS_LIMIT)&.each do |highlight|
-      f.puts("> [#{highlight[:text]}](kindle://book?action=open&asin=#{highlight[:asin]}&location=#{highlight[:location]}) ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n")
+      f.puts("> [#{highlight[:text]}](kindle://book?action=open&asin=#{highlight[:asin]}&location=#{highlight[:location]}) ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
     end
   else
     f.puts("Here are my latest favorite quotes:\n")
 
     DEFAULT_QUOTES.slice(0, HIGHLIGHTS_LIMIT)&.each do |highlight|
-      f.puts("> #{highlight[:text]} ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\r\n\r\n")
+      f.puts("> #{highlight[:text]} ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
     end
   end
 
