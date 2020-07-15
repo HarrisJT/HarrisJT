@@ -37,7 +37,6 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
-    redcarpet (3.5.0)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
@@ -52,7 +51,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (= 1.16.6)
   kindle-highlights
-  redcarpet
 
 BUNDLED WITH
    1.16.6

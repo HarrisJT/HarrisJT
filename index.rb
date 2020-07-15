@@ -1,5 +1,4 @@
-require 'kindle_highlights'
-require 'redcarpet'
+require "kindle_highlights"
 
 WORK_NAME = "ABODO"
 WORK_URL = "https://abodo.com/about"
@@ -37,9 +36,8 @@ kindle = KindleHighlights::Client.new(
     password: ENV["AMAZON_PASS"]
 )
 
-
-File.open("README.md", 'w') do |f|
-  f.puts("Currently working on [#{WORK_NAME}](#{WORK_URL}), read my [website](#{PERSONAL_WEBSITE_URL}) or [twitter](#{TWITTER_URL}), reach me: [#{PERSONAL_EMAIL}](mailto:#{PERSONAL_EMAIL}).\n\n")
+File.open("README.md", "w") do |file|
+  file.puts("Currently working on [#{WORK_NAME}](#{WORK_URL}), read my [website](#{PERSONAL_WEBSITE_URL}) or [twitter](#{TWITTER_URL}), reach me: [#{PERSONAL_EMAIL}](mailto:#{PERSONAL_EMAIL}).\n\n")
 
   highlights = []
 
@@ -61,18 +59,18 @@ File.open("README.md", 'w') do |f|
   end
 
   if highlights.length.positive?
-    f.puts("Here are my latest kindle highlights:\n")
+    file.puts("Here are my latest kindle highlights:\n")
 
     highlights.slice(0, HIGHLIGHTS_LIMIT)&.each do |highlight|
-      f.puts("> [#{highlight[:text]}](kindle://book?action=open&asin=#{highlight[:asin]}&location=#{highlight[:location]}) ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
+      file.puts("> [#{highlight[:text]}](kindle://book?action=open&asin=#{highlight[:asin]}&location=#{highlight[:location]}) ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
     end
   else
-    f.puts("Here are my latest favorite quotes:\n")
+    file.puts("Here are my latest favorite quotes:\n")
 
     DEFAULT_QUOTES.slice(0, HIGHLIGHTS_LIMIT)&.each do |highlight|
-      f.puts("> #{highlight[:text]} ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
+      file.puts("> #{highlight[:text]} ―<cite>#{highlight[:title]}</cite>, #{highlight[:author]}\n\n")
     end
   end
 
-  f.puts("<a href='https://github.com/HarrisJT/HarrisJT/actions'><img src='https://github.com/HarrisJT/HarrisJT/workflows/Build%20README/badge.svg' align='right' alt='Build README'></a> <a href='https://github.com/HarrisJT/HarrisJT/index.rb'>How this works</a>")
+  file.puts("<a href='https://github.com/HarrisJT/HarrisJT/actions'><img src='https://github.com/HarrisJT/HarrisJT/workflows/Build%20README/badge.svg' align='right' alt='Build README'></a> <a href='https://github.com/HarrisJT/HarrisJT/blob/master/index.rb'>How this works</a>")
 end
