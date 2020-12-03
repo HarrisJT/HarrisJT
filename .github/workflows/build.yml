@@ -15,7 +15,8 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.4
+          ruby-version: 2.6
+          bundler-cache: true
       - name: Configure bundle gem caching
         uses: actions/cache@v2
         with:
