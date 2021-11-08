@@ -1,4 +1,4 @@
-Currently working at [ABODO](https://abodo.com/about), writing on my [personal website](https://harrisjt.com) or [twitter](https://twitter.com/harrisjt_). Reach me: [harris@harrisjt.com](mailto:harris@harrisjt.com).
+Currently working at [Kandji](https://kandji.io), writing on my [personal website](https://harrisjt.com) or [twitter](https://twitter.com/harrisjt_). Reach me: [harris@harrisjt.com](mailto:harris@harrisjt.com).
 
 Here are my latest kindle highlights:
 > [But life does not ask us what we want. It presents us with options. Economics is one of the ways of trying to make the most of those options.](kindle://book?action=open&asin=B00L4FSSTA&location=208) ―<cite>Basic Economics</cite>, Thomas Sowell
